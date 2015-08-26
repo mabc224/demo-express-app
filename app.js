@@ -24,7 +24,7 @@ app.use(function(req, res, next) {
 app.locals.appname = 'Express.js Todo App'
 app.locals.moment = require('moment');
 
-app.set('port', process.env.PORT || 3000);
+app.set('port', process.env.PORT || 8080);
 app.set('views', __dirname + '/views');
 app.set('view engine', 'jade');
 app.use(favicon(path.join('public','favicon.ico')));
